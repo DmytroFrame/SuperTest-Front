@@ -5,11 +5,12 @@ import '../Styles/TestCard.css'
 function TestCart({quiz}) {
     return (
         <div className="card">
-            <h2>{quiz.id}. {quiz.title}</h2>
-            <p>{quiz.description}</p>
+            <p><strong>{quiz.id}. </strong>{quiz.title}</p>
             <ul>
-                {quiz.input.map(input =>
-                    <li><input type="radio" name="quiz" />{input}</li>
+                { quiz.input.map( (input, index) =>
+                    <li key={index}>
+                        <input type={quiz.inputType} name="quiz" />{index +1}. {input}
+                    </li>
                 )}
             </ul>
         </div>

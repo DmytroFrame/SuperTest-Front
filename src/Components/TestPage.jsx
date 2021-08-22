@@ -1,32 +1,22 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import TestCart from './TestCart'
 import '../Styles/TestPage.css'
+import axios from 'axios';
+
 
 
 function TestPage() {
-    const [quiz, setQuiz] = useState([
-        {
-            id: 1, 
-            title: "Нахуй ти це зробив?", 
-            description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid error voluptatem nostrum mollitia animi? Laboriosam officiis enim magni",
-            input: [
-                "1. daun",
-                "2. daun",
-                "3. daun"
-            ]  
-        },
-        {
-            id: 2, 
-            title: "ХуйНА", 
-            description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid error voluptatem nostrum mollitia animi? Laboriosam officiis enim magni",
-            input: [
-                "1. daun",
-                "2. daun",
-                "3. daun",
-                "4. daun"
-            ]  
-        },
-    ]);
+
+    const [quiz, setQuiz] = useState([]);
+    
+    async function getdodik() {
+        const response = await axios.get('http://localhost:5000/api/test1')
+        setQuiz(response.data)
+    }
+
+    useEffect(()=>{
+        getdodik()
+    },[])
 
 
     return (
