@@ -1,0 +1,86 @@
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 60px;
+}
+.title h1 {
+    text-align: left;
+    width: 200px;
+    display: inline;
+    /* padding-bottom: 50px; */
+}
+.title a {
+    background-color: gold;
+    display: block;
+    float: right;
+    position: relative;
+    height: 38px;
+    width: 100px;
+    /* margin: 0 10px 18px 0; */
+    padding-top: 10px;
+    /* margin-top: 3px; */
+    
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    box-shadow: khaki;
+    border-radius: 0px 0 5px 5px;
+}
+
+.conteiner {
+    margin-left: auto;
+    margin-right: auto;
+    /* mar */
+    /* justify-content: center; */
+    width: 70%;
+    /* height: 700px; */
+    
+    background-color: rgba(243, 243, 243, 0.932);
+    padding-bottom: 40px;
+    padding-top: 50px;
+} 
+.card {
+    border-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.submit {
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* width: 60%; */
+    /* margin: 50px; */
+    /* text-align: center; */
+    /* border-radius: 10px 10px 0 0; */
+}
+.submit input {
+    width: 50%;
+    height: 32px;
+}
+
+.submit button {
+    border-radius: 5px 0 5px 0;
+    background:gold;
+    color:black;
+    border-style: solid;
+    border-color: gold;
+    height: 35px;
+    width: 90px;
+    text-shadow: none;
+    transition-duration: .2s;
+}
+.submit button:hover {
+    color: rgb(80, 80, 80);
+    border-color: rgb(252, 227, 85);
+    background: rgb(252, 227, 85);
+}
+
