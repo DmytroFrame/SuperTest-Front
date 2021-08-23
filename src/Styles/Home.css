@@ -1,0 +1,21 @@
+.Home {
+    text-align: center;
+}
+
+
+a {
+    text-align: center;
+}
+
+
+.pre {
+    margin-top: -40px;
+    font-size: 160pt;
+    margin-bottom: -40px;
+}
+
+img {
+    margin-top: 40px;
+    border-radius: 50px;
+    box-shadow: 0 8px 40px rgba(47, 189, 245, 0.904);
+}

@@ -19,16 +19,22 @@ function TestPage() {
     },[])
 
 
+
+    let newObj = {}
+    function addYouResol(number, resolt){
+        // newObj[number] = resolt
+        console.log("om funk you mom")
+    }
+
+
+
+
     return (
-        <div>
-            <div className="title">
-                <h1>SuperTest</h1>
-                <a href="#">Premium</a>
-            </div>
+        <div>            
 
             <div className="conteiner">
                 {quiz.map(card =>
-                    <TestCart quiz={card} key={card.id}/>
+                    <TestCart quiz={card} add={addYouResol} key={card.id}/>
                 )}
 
                 <div className="card">
