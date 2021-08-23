@@ -5,18 +5,18 @@ import '../Styles/Navbar.css';
 
 function Navbar() {
     return (
-        <div class="nav-bar">
+        <div className="nav-bar">
         <Link to="/">
-            <a href="/"class="title" title="Homepage">SuperTest</a>
+            <a href="/"className="title" title="Homepage">SuperTest</a>
         </Link>
 
         <Link to="/premium">
-            <a href="/premium" class="premium">Premium</a>
+            <a href="/premium" className="premium">Premium</a>
         </Link>
 
 
         <Link to="/test">
-            <a href="/test" class="premium">test</a>
+            <a href="/test" className="premium">test</a>
         </Link>
 
         </div>

@@ -1,8 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import QuizCart from './QuizCart'
-import './Style/QuizPage.css'
+import './Styles/QuizPage.css'
 import axios from 'axios';
-
 
 
 function QuizPage() {
@@ -14,9 +13,7 @@ function QuizPage() {
         setQuiz(response.data)
     }
 
-    useEffect(()=>{
-        getdodik()
-    },[])
+    useEffect(() => getdodik(),[])
 
 
     const resoltQuiz = quiz
@@ -58,4 +55,4 @@ function QuizPage() {
     )
 }
 
-export default QuizPage
+export default QuizPage;

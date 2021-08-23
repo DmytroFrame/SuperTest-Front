@@ -1,8 +1,8 @@
 import React from 'react'
-import './Style/QuizCard.css'
+import './Styles/QuizCard.css'
 
 
-function TestCart({quiz, switchValue}) {
+function QuizCart({quiz, switchValue}) {
     
     return (
         <div className="card">
@@ -19,4 +19,4 @@ function TestCart({quiz, switchValue}) {
     )
 }
 
-export default TestCart
+export default QuizCart;
