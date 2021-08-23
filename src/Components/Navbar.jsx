@@ -11,7 +11,7 @@ function Navbar() {
         </Link>
 
         <Link to="/premium">
-        <a href="/premium" class="premium">Premium</a>
+            <a href="/premium" class="premium">Premium</a>
         </Link>
 
 

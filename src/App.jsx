@@ -1,5 +1,5 @@
 import React from "react";
-import TestPage from "./Components/TestPage";
+import QuizPage from "./Components/Quiz/QuizPage";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
@@ -14,7 +14,7 @@ function App() {
 
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/test" component={TestPage} />
+          <Route path="/test" component={QuizPage} />
           <Route path="/premium" component={Premium} />
 
 
