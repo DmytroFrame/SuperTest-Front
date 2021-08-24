@@ -15,10 +15,6 @@ function Navbar() {
         </Link>
 
 
-        <Link to="/test">
-            <a href="/test" className="premium">test</a>
-        </Link>
-
         </div>
     );
 }

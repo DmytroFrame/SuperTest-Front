@@ -1,9 +1,11 @@
 import React from "react";
-import QuizPage from "./Components/Quiz/QuizPage";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
 import Home from "./Components/Home";
-import Navbar from "./Components/Navbar";
+import QuizPage from "./Components/Quiz/QuizPage";
 import Premium from "./Components/Premium";
+import Navbar from "./Components/Navbar";
+
 
 function App() {
   return (
@@ -13,9 +15,9 @@ function App() {
         <Navbar />
 
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/test" component={QuizPage} />
-          <Route path="/premium" component={Premium} />
+            <Route path="/" exact component={Home} />
+            <Route path="/quiz" component={QuizPage} />
+            <Route path="/premium" component={Premium} />
 
 
         </Switch>

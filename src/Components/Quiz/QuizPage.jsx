@@ -5,34 +5,34 @@ import axios from 'axios';
 
 
 function QuizPage() {
+    const idQuiz = window.location.pathname.split('/')[2]
+
 
     const [quiz, setQuiz] = useState([]);
     
     async function getdodik() {
-        const response = await axios.get('http://localhost:5000/api/test1')
+        const response = await axios.get(`http://localhost:5000/api/quiz/${idQuiz}`)
         setQuiz(response.data)
     }
 
     useEffect(() => getdodik(),[])
 
 
-    const resoltQuiz = quiz
+
+    const resultQuiz = quiz
     
-    for (let oneQuiz in resoltQuiz) {
-        for (let oneInput in resoltQuiz[oneQuiz]['input']) {
-            resoltQuiz[oneQuiz]['input'][oneInput]['value'] = false
+    for (let oneQuiz in resultQuiz) {
+        for (let oneInput in resultQuiz[oneQuiz]['input']) {
+            resultQuiz[oneQuiz]['input'][oneInput]['value'] = false
         }
     }
 
-    function switchValue(number, inputNumber){
-        resoltQuiz[number]['input'][inputNumber]['value'] = !resoltQuiz[number]['input'][inputNumber]['value']
-        // console.log(resoltQuiz[number]['input'][inputNumber]['value'])
+    function switchValue(number, inputNumber) {
+        resultQuiz[number]['input'][inputNumber]['value'] = !resultQuiz[number]['input'][inputNumber]['value']
+        // console.log(resultQuiz[number]['input'][inputNumber]['value'])
     }
 
-
-
-
-
+    // console.log(window.location.pathname)
 
 
     return (
