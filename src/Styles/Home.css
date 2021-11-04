@@ -1,18 +1,9 @@
-/* body{
-    background-color: #1d1f1e;;
-} */
-
-
-
 .Home {
     text-align: center;
 }
-
-
 a {
     text-align: center;
 }
-
 
 .pre {
     margin-top: -40px;
@@ -27,40 +18,26 @@ img {
     box-shadow: 0 8px 40px rgba(47, 189, 245, 0.904);
 }
 
-
 .homepage_title {
-    /* height: ; */
-    /* color: white; */
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
     margin-bottom: 15px;
 }
+
 .homepage_title h2 {
     font-size: 38pt;
     text-align: center;   
 }
-
-
 
 .container_quiz {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    /* display:; */
     justify-content: center;
     flex-wrap: wrap;
-    /* justify-self: start;
-     */
-     /* justify-items: s; */
-    /* flex-basis: auto; */
-    /* flex-flow: ; */
-    /* background-color: rgb(241, 241, 241); */
-    /* background: #4949498c; */
-    /* height: 80%; */
-    /* padding: 10px; */
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 20px;

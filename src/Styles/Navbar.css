@@ -1,9 +1,7 @@
 .nav-bar {
-    /* padding-top: -20px; */
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    /* background-color: rgb(107, 107, 107); */
     padding: 0px 15px 10px 20px;
     color: white;
     border-radius: 0 0 15px 15px;
@@ -12,17 +10,13 @@
   }
   
   .title {
-    /* margin-top: -5px; */
-    /* color: #000 !important; */
     color: black !important;
     font-size: 28pt;
     font-weight: 700;
     text-align: left;
     letter-spacing: -2px;
-    /* text-decoration: none !important; */
-    
-    /* padding-bottom: 50px; */
   }
+
   .premium {
     background-color: rgb(73, 73, 73);
     display: block;
@@ -34,13 +28,9 @@
     margin-top: 10px;
     margin-right: 2px;
     margin-left: 10px;
-
-
-
     text-align: center;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    /* color: white; */
     font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bolder;
     box-shadow: khaki;

@@ -2,15 +2,12 @@
 .conteiner {
     margin-left: auto;
     margin-right: auto;
-    /* mar */
-    /* justify-content: center; */
     width: 70%;
-    /* height: 700px; */
-    
     background-color: rgba(243, 243, 243, 0.932);
     padding-bottom: 40px;
     padding-top: 50px;
-} 
+}
+
 .card {
     border-color: white;
     margin-left: auto;
@@ -26,10 +23,6 @@
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    /* width: 60%; */
-    /* margin: 50px; */
-    /* text-align: center; */
-    /* border-radius: 10px 10px 0 0; */
 }
 .submit input {
     width: 50%;
@@ -38,7 +31,6 @@
 
 .submit button {
     border-radius: 5px 0 5px 0;
-    /* background:gold; */
     background: rgb(174,215,238);
     background: radial-gradient(circle, rgba(174,215,238,1) 0%, rgba(148,187,233,1) 100%);
     color:black;
@@ -52,7 +44,6 @@
 .submit button:hover {
     color: rgb(80, 80, 80);
     border-color: rgb(214, 235, 247);
-    /* background: rgb(252, 227, 85); */
     background: rgb(174,215,238);
     background: radial-gradient(circle, rgba(174,215,238,1) 0%, rgba(148,187,233,1) 100%);
 }

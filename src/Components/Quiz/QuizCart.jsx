@@ -10,7 +10,7 @@ function QuizCart({quiz, switchValue}) {
             <ul>
                 { quiz.input.map( (input, index) =>
                     <li key={index}>
-                        <input type={quiz.inputType} name={quiz.id} onClick={()=> {switchValue(quiz.id -1, index)}}/>
+                        <input type={quiz.inputType} name={quiz.id} onChange={()=> {switchValue(quiz.id -1, index)}}/>
                         {index +1}. {input.title}
                     </li>
                 )}

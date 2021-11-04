@@ -13,7 +13,7 @@ function App() {
       <div className="App">
 
         <Navbar />
-
+          
         <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/quiz" component={QuizPage} />

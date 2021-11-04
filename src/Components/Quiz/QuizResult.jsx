@@ -2,8 +2,8 @@ import React from 'react'
 import './Styles/QuizResult.css'
 
 
-function QuizResult() {
-
+function QuizResult(props) {
+    console.log(props.result)
 
     return (
         <div>

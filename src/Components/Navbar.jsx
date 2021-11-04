@@ -7,11 +7,11 @@ function Navbar() {
     return (
         <div className="nav-bar">
         <Link to="/">
-            <a href="/"className="title" title="Homepage">SuperTest</a>
+            <label className="title" title="Homepage">SuperTest</label>
         </Link>
 
         <Link to="/premium">
-            <a href="/premium" className="premium">Premium</a>
+            <label className="premium">Premium</label>
         </Link>
 
 
